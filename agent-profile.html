@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VALORANT JLA</title>
+    <link rel="shortcut icon" href="./media/img/valorant-icon-r.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="elementos-nav">
+                <li class="elemento-nav">
+                    <a href="./index.html"><div class="nav-icon-w" alt="Icono Valorant Blanco/Rojo"></div></a>
+                </li>
+                <li class="elemento-nav enlace-nav">
+                    <a class="link-nav" href="./ranks.html">RANGOS</a>
+                    <div class="barra-nav"></div>
+                </li>
+                <li class="elemento-nav enlace-nav">
+                    <a class="link-nav" href="./agents.html">AGENTES</a>
+                    <div class="barra-nav"></div>
+                </li>
+                <li class="elemento-nav enlace-nav">
+                    <a class="link-nav" href="./maps.html">MAPAS</a>
+                    <div class="barra-nav"></div>
+                </li>
+                <li class="elemento-nav enlace-nav">
+                    <a class="link-nav" href="./about-me.html">SOBRE NOSOTROS</a>
+                    <div class="barra-nav"></div>
+                </li>
+                <li class="elemento-nav">
+                    <div class="btn-desplegable" onclick="menuDesplegable()"></div>
+                </li>
+            </ul>
+            <ul class="desplegable">
+                <li><a href="./ranks.html">RANGOS</a></li>
+                <li><a href="./agents.html">AGENTES</a></li>
+                <li><a href="./maps.html">MAPAS</a></li>
+            </ul>
+            <div class="boton-reg"><a href="./register.html"><span>REGISTRATE</span></a></div>
+        </nav>
+    </header>
+    <main>
+        <div class="centrar-agente">
+            <div id="agente"><img id="imgAgente" src="" alt="ImagenAgente" srcset=""></div>
+            <div class="habilidades">
+                <div class="datosPj">
+                    <div class="nombreRol">
+                        <span id="nombrePj"></span>
+                        <div class="rolImgText">
+                            <img src="" alt="ImgagenRol" id="imgRolPj">
+                            <span id="textRol"></span>
+                        </div>
+                    </div>
+                    <div class="descripcionPj"><span id="descPj"></span></div>
+                </div>
+                <div class="datosHabilidades">
+                    <div class="habilidadesDescripcion">
+                        <div class="todasHabilidades">
+                            <img src="" alt="Habilidad1" class="habilidad" onclick="cambiarTextDescripcionHabilidad('0')">
+                            <img src="" alt="Habilidad2" class="habilidad" onclick="cambiarTextDescripcionHabilidad('1')">
+                            <img src="" alt="Habilidad3" class="habilidad" onclick="cambiarTextDescripcionHabilidad('2')">
+                            <img src="" alt="Habilidad4" class="habilidad" onclick="cambiarTextDescripcionHabilidad('3')">
+                        </div>
+                        <div class="descHabilidad"><span id="textNombreHabilidad"></span><span id="textDescHabilidad"></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer"></div>
+            <figure class="icono-footer"><img src="./media/img/valorant-icon-g.png" alt="Icono Valorant Gris"></figure>
+            <figcaption class="footer2">VALORANT JLA</figcaption>
+        <div class="footer-container">
+            <a class="footer3" href="./about-me.html">SOBRE NOSOTROS</a>
+            <a target="_blank" class="footer3" href="https://www.riotgames.com/es/terms-of-service-ES">TÉRMINOS DE USO</a>
+        </div>
+        </div>
+        <div class="footer4">
+            <figure><img class="pegi1" src="./media/img/pegi1.png" alt="Pegi-16"></figure>
+            <figure><img class="pegi2" src="./media/img/pegi2.jpg" alt="Pegi-Violencia"></figure>
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
+    <script src="./js/agent-profile.js"></script>
+</body>
+
+</html>

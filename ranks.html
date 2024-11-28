@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VALORANT JLA</title>
+    <link rel="shortcut icon" href="./media/img/valorant-icon-r.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="elementos-nav">
+                <li class="elemento-nav">
+                    <a href="./index.html"><div class="nav-icon-w" alt="Icono Valorant Blanco/Rojo"></div></a>
+                </li>
+                <li class="elemento-nav enlace-nav">
+                    <a class="link-nav" href="./agents.html">AGENTES</a>
+                    <div class="barra-nav"></div>
+                </li>
+                <li class="elemento-nav enlace-nav">
+                    <a class="link-nav" href="./maps.html">MAPAS</a>
+                    <div class="barra-nav"></div>
+                </li>
+                <li class="elemento-nav enlace-nav">
+                    <a class="link-nav" href="./about-me.html">SOBRE NOSOTROS</a>
+                    <div class="barra-nav"></div>
+                </li>
+                <li class="elemento-nav">
+                    <div class="btn-desplegable" onclick="menuDesplegable()"></div>
+                </li>
+            </ul>
+            <ul class="desplegable">
+                <li><a href="./agents.html">AGENTES</a></li>
+                <li><a href="./maps.html">MAPAS</a></li>
+            </ul>
+            <div class="boton-reg"><a href="./register.html"><span>REGISTRATE</span></a></div>
+        </nav>
+    </header>
+    <main>
+        <div class="centrar-grafica">
+            <canvas id="grafica"></canvas>
+        </div>
+        <div class="centrar-rangos">
+            <div class="todas-divisiones">
+                <div class="divisiones">
+                    <span class="numDivision">1</span>
+                    <span class="numDivision">2</span>
+                    <span class="numDivision">3</span>
+                </div>
+                <div class="divisiones">
+                    <span class="nombre-rango"></span>
+                    <div class="rango">
+                        <img src="" alt="Hierro1" class="img-rango"> 
+                    </div>
+                    <div class="rango">
+                        <img src="" alt="Hierro2" class="img-rango">
+                    </div>
+                    <div class="rango">
+                        <img src="" alt="Hierro3" class="img-rango">
+                    </div>
+                </div>
+                <div class="divisiones">
+                    <span class="nombre-rango"></span>
+                    <div class="rango">
+                        <img src="" alt="Bronce1" class="img-rango">
+                    </div>
+                    <div class="rango">
+                        <img src="" alt="Bronce2" class="img-rango">
+                    </div>
+                    <div class="rango">
+                        <img src="" alt="Bronce3" class="img-rango">
+                    </div>
+                </div>
+                <div class="divisiones">
+                    <span class="nombre-rango"></span>
+                    <div class="rango">
+                        <img src="" alt="Plata1" class="img-rango">
+                    </div>
+                    <div class="rango">
+                        <img src="" alt="Plata2" class="img-rango">
+                    </div>
+                    <div class="rango">
+                        <img src="" alt="Plata3" class="img-rango">
+                    </div>
+                </div>
+                <div class="divisiones">
+                    <span class="nombre-rango"></span>
+                    <div class="rango">
+                        <img src="" alt="Oro1" class="img-rango">
+                    </div>
+                    <div class="rango">
+                        <img src="" alt="Oro2" class="img-rango">
+                    </div>
+                    <div class="rango">
+                        <img src="" alt="Oro3" class="img-rango">
+                    </div>
+                </div>
+                <div class="divisiones">
+                    <span class="nombre-rango"></span>
+                    <div class="rango">
+                        <img src="" alt="Platino1" class="img-rango">
+                    </div>
+                    <div class="rango">
+                        <img src="" alt="Platino2" class="img-rango">
+                    </div>
+                    <div class="rango">
+                        <img src="" alt="Platino3" class="img-rango">
+                    </div>
+                </div>
+                <div class="divisiones">
+                    <span class="nombre-rango"></span>
+                    <div class="rango">
+                        <img src="" alt="Diamante1" class="img-rango">
+                    </div>
+                    <div class="rango">
+                        <img src="" alt="Diamante2" class="img-rango">
+                    </div>
+                    <div class="rango">
+                        <img src="" alt="Diamante3" class="img-rango">
+                    </div>
+                </div>
+                <div class="divisiones">
+                    <span class="nombre-rango"></span>
+                    <div class="rango">
+                        <img src="" alt="Ascendente1" class="img-rango">
+                    </div>
+                    <div class="rango">
+                        <img src="" alt="Ascendente2" class="img-rango">
+                    </div>
+                    <div class="rango">
+                        <img src="" alt="Ascendente3" class="img-rango">
+                    </div>
+                </div>
+                <div class="divisiones">
+                    <span class="nombre-rango"></span>
+                    <div class="rango">
+                        <img src="" alt="Inmortal1" class="img-rango">
+                    </div>
+                    <div class="rango">
+                        <img src="" alt="Inmortal2" class="img-rango">
+                    </div>
+                    <div class="rango">
+                        <img src="" alt="Inmortal3" class="img-rango">
+                    </div>
+                </div>
+                <div class="divisiones">
+                    <span class="nombre-rango"></span>
+                    <div class="rango" id="radiant">
+                        <img src="" alt="Radiante" class="img-rango">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer"></div>
+            <figure class="icono-footer"><img src="./media/img/valorant-icon-g.png" alt="Icono Valorant Gris"></figure>
+            <figcaption class="footer2">VALORANT JLA</figcaption>
+        <div class="footer-container">
+            <a class="footer3" href="./about-me.html">SOBRE NOSOTROS</a>
+            <a target="_blank" class="footer3" href="https://www.riotgames.com/es/terms-of-service-ES">TÉRMINOS DE USO</a>
+        </div>
+        </div>
+        <div class="footer4">
+            <figure><img class="pegi1" src="./media/img/pegi1.png" alt="Pegi-16"></figure>
+            <figure><img class="pegi2" src="./media/img/pegi2.jpg" alt="Pegi-Violencia"></figure>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/ranks.js"></script>
+</body>
+</html>
