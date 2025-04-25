@@ -1,35 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom">
    <channel>
       <title>ValorantJLA</title>
       <link>https://acm0160.github.io/ValorantJLA/</link>
+      <atom:link href="https://acm0160.github.io/ValorantJLA/rss.xml" rel="self" type="application/rss+xml"/>
       <description>Últimas actualizaciones del juego</description>
-        <item>
-            <title>Nuevo mapa añadido: Abyss</title>
-            <description>Riot Games lanza "Abyss", un nuevo mapa subterráneo con mecánicas verticales únicas y zonas oscuras ideales para el sigilo.</description>
-            <link>https://acm0160.github.io/ValorantJLA/maps.html</link>
-            <guid>https://acm0160.github.io/ValorantJLA/maps.html#abyss</guid>
-        </item>
-        <item>
-            <title>Nuevo agente revelado: Waylay</title>
-            <link>https://acm0160.github.io/ValorantJLA/agents.html</link>
-            <guid>https://acm0160.github.io/ValorantJLA/agents.html#waylay</guid>
-            <description>Riot Games revela a Waylay...</description>
-         </item>
-        <item>
-            <title>Notas del parche 9.03</title>
-            <description>Actualización con ajustes a Raze y cambios en el mapa Bind.</description>
-            <link>https://acm0160.github.io/ValorantJLA/index.html</link>
-        </item>
-        <item>
-            <title>Nueva arma añadida: Outlaw</title>
-            <description>Riot introduce Outlaw, un rifle de precisión de dos disparos por cargador, ideal para quienes buscan un equilibrio entre la Marshall y la Operator.</description>
-            <link>https://acm0160.github.io/ValorantJLA/index.html</link>
-        </item>
-        <item>
-            <title>Nuevo paquete de skins: Minima</title>
-            <description>El bundle Minima regresa a la tienda: un diseño elegante, sin distracciones, con líneas limpias y estilo ultra minimalista.</description>
-            <link>https://acm0160.github.io/ValorantJLA/index.html</link>
-        </item>
+
+      <item>
+         <title>Nuevo mapa añadido: Abyss</title>
+         <description>Riot Games lanza "Abyss", un nuevo mapa subterráneo con mecánicas verticales únicas y zonas oscuras ideales para el sigilo.</description>
+         <link>https://acm0160.github.io/ValorantJLA/maps.html</link>
+         <guid>https://acm0160.github.io/ValorantJLA/maps.html#abyss</guid>
+      </item>
+
+      <item>
+         <title>Nuevo agente revelado: Waylay</title>
+         <description>Riot Games revela a Waylay, el nuevo agente duelista con habilidades de relentización temporal.</description>
+         <link>https://acm0160.github.io/ValorantJLA/agents.html</link>
+         <guid>https://acm0160.github.io/ValorantJLA/agents.html#waylay</guid>
+      </item>
+
+      <item>
+         <title>Notas del parche 9.03</title>
+         <description>Actualización con ajustes a Raze y cambios en el mapa Bind.</description>
+         <link>https://acm0160.github.io/ValorantJLA/index.html</link>
+         <guid>https://acm0160.github.io/ValorantJLA/index.html#patch903</guid>
+      </item>
+
+      <item>
+         <title>Nueva arma añadida: Outlaw</title>
+         <description>Riot introduce Outlaw, un rifle de precisión de dos disparos por cargador, ideal para quienes buscan un equilibrio entre la Marshall y la Operator.</description>
+         <link>https://acm0160.github.io/ValorantJLA/index.html</link>
+         <guid>https://acm0160.github.io/ValorantJLA/index.html#outlaw</guid>
+      </item>
+
+      <item>
+         <title>Nuevo paquete de skins: Minima</title>
+         <description>El bundle Minima regresa a la tienda: un diseño elegante, sin distracciones, con líneas limpias y estilo ultra minimalista.</description>
+         <link>https://acm0160.github.io/ValorantJLA/index.html</link>
+         <guid>https://acm0160.github.io/ValorantJLA/index.html#minima</guid>
+      </item>
    </channel>
 </rss>
