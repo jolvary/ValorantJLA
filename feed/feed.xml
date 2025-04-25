@@ -7,39 +7,40 @@
       <atom:link href="https://acm0160.github.io/ValorantJLA/feed/feed.xml" rel="self" type="application/rss+xml"/>
       <description>Últimas actualizaciones del juego</description>
 
+     <item>
+         <title>Notas del parche 9.03</title>
+         <description>Actualización para mejorar a Viper, Brimstone, Clove, Omen y Sage.</description>
+         <link>https://acm0160.github.io/ValorantJLA/index.html</link>
+         <guid>https://acm0160.github.io/ValorantJLA/index.html#patch903</guid>
+      </item>
+        
       <item>
-         <title>Nuevo mapa añadido: Abyss</title>
-         <description>Riot Games lanza "Abyss", un nuevo mapa subterráneo con mecánicas verticales únicas y zonas oscuras ideales para el sigilo.</description>
+         <title>Nuevo mapa: Abyss</title>
+         <description>Un nuevo mapa subterráneo con mecánicas verticales únicas.</description>
          <link>https://acm0160.github.io/ValorantJLA/maps.html</link>
          <guid>https://acm0160.github.io/ValorantJLA/maps.html#abyss</guid>
       </item>
 
       <item>
-         <title>Nuevo agente revelado: Waylay</title>
-         <description>Riot Games revela a Waylay, el nuevo agente duelista con habilidades de relentización temporal.</description>
+         <title>Nuevo agente: Waylay</title>
+         <description>La tailandesa Waylay se une al campo de batalla como nueva duelista.</description>
          <link>https://acm0160.github.io/ValorantJLA/agents.html</link>
          <guid>https://acm0160.github.io/ValorantJLA/agents.html#waylay</guid>
       </item>
 
       <item>
-         <title>Notas del parche 9.03</title>
-         <description>Actualización con ajustes a Raze y cambios en el mapa Bind.</description>
-         <link>https://acm0160.github.io/ValorantJLA/index.html</link>
-         <guid>https://acm0160.github.io/ValorantJLA/index.html#patch903</guid>
-      </item>
-
-      <item>
-         <title>Nueva arma añadida: Outlaw</title>
-         <description>Riot introduce Outlaw, un rifle de precisión de dos disparos por cargador, ideal para quienes buscan un equilibrio entre la Marshall y la Operator.</description>
+         <title>Nueva arma: Outlaw</title>
+         <description>Introducción del Outlaw, un rifle de precisión de dos disparos por cargador.</description>
          <link>https://acm0160.github.io/ValorantJLA/index.html</link>
          <guid>https://acm0160.github.io/ValorantJLA/index.html#outlaw</guid>
       </item>
 
       <item>
-         <title>Nuevo paquete de skins: Minima</title>
-         <description>El bundle Minima regresa a la tienda: un diseño elegante, sin distracciones, con líneas limpias y estilo ultra minimalista.</description>
+         <title>Nuevo pack de skins: Minima</title>
+         <description>Un diseño elegante, con líneas limpias y estilo ultra minimalista.</description>
          <link>https://acm0160.github.io/ValorantJLA/index.html</link>
          <guid>https://acm0160.github.io/ValorantJLA/index.html#minima</guid>
       </item>
+        
    </channel>
 </rss>
