@@ -25,7 +25,7 @@ function muestraDatos(datos) {
 }
 
 window.onload = function () {
-    let url = "https://valorant-api.com/v1/maps?language=en-EN";
+    let url = "https://valorant-api.com/v1/maps";
     let options = {
         method: "get"
     }
