@@ -132,7 +132,7 @@ function insertarRangos(datos) {
 
 
 window.onload = function () {
-    let url = "https://valorant-api.com/v1/competitivetiers?language=es-ES";
+    let url = "https://valorant-api.com/v1/competitivetiers?language=en-EN";
     let options = {
         method: "get"
     }

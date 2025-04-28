@@ -25,7 +25,7 @@ window.onload = function () {
     const urlParams = new URLSearchParams(queryString);
     const uuid = urlParams.get('map');
 
-    let url = "https://valorant-api.com/v1/maps/"+uuid+"?language=es-ES";
+    let url = "https://valorant-api.com/v1/maps/"+uuid+"?language=en-EN";
     let options = {
         method: "get"
     }

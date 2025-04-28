@@ -69,7 +69,7 @@ window.onload = function () {
     const urlParams = new URLSearchParams(queryString);
     const uuid = urlParams.get('agent');
 
-    let url = "https://valorant-api.com/v1/agents/" + uuid + "?language=es-ES";
+    let url = "https://valorant-api.com/v1/agents/" + uuid + "?language=en-EN";
     let options = {
         method: "get"
     }
